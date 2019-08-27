@@ -1,0 +1,73 @@
+sources:
+  AM21:
+    args:
+      path: '{{CATALOG_DIR}}/AM21/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  CAM3:
+    args:
+      path: '{{CATALOG_DIR}}/CAM3/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  CAM4:
+    args:
+      path: '{{CATALOG_DIR}}/CAM4/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  CAM5Nor:
+    args:
+      path: '{{CATALOG_DIR}}/CAM5Nor/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  CNRM-AM5:
+    args:
+      path: '{{CATALOG_DIR}}/CNRM-AM5/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  ECHAM61:
+    args:
+      path: '{{CATALOG_DIR}}/ECHAM61/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  ECHAM63:
+    args:
+      path: '{{CATALOG_DIR}}/ECHAM63/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  LMDZ5A:
+    args:
+      path: '{{CATALOG_DIR}}/LMDZ5A/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  MIROC5:
+    args:
+      path: '{{CATALOG_DIR}}/MIROC5/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  MPAS:
+    args:
+      path: '{{CATALOG_DIR}}/MPAS/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  MetUM-CTL:
+    args:
+      path: '{{CATALOG_DIR}}/MetUM-CTL/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  MetUM-ENT:
+    args:
+      path: '{{CATALOG_DIR}}/MetUM-ENT/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

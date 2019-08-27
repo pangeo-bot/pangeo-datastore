@@ -1,0 +1,13 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  v20190131:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Amon/aqua4xCO2/MPAS/ta/v20190131/
+    description: ''
+    driver: zarr
+    metadata: {}

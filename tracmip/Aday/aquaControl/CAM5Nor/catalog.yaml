@@ -1,0 +1,115 @@
+sources:
+  clt:
+    args:
+      path: '{{CATALOG_DIR}}/clt/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  hfls:
+    args:
+      path: '{{CATALOG_DIR}}/hfls/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  hfss:
+    args:
+      path: '{{CATALOG_DIR}}/hfss/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  hurs:
+    args:
+      path: '{{CATALOG_DIR}}/hurs/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  huss:
+    args:
+      path: '{{CATALOG_DIR}}/huss/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  pr:
+    args:
+      path: '{{CATALOG_DIR}}/pr/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  prc:
+    args:
+      path: '{{CATALOG_DIR}}/prc/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  prsn:
+    args:
+      path: '{{CATALOG_DIR}}/prsn/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  psl:
+    args:
+      path: '{{CATALOG_DIR}}/psl/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  rlds:
+    args:
+      path: '{{CATALOG_DIR}}/rlds/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  rlus:
+    args:
+      path: '{{CATALOG_DIR}}/rlus/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  rlut:
+    args:
+      path: '{{CATALOG_DIR}}/rlut/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  rsds:
+    args:
+      path: '{{CATALOG_DIR}}/rsds/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  rsus:
+    args:
+      path: '{{CATALOG_DIR}}/rsus/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  tas:
+    args:
+      path: '{{CATALOG_DIR}}/tas/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  tasmax:
+    args:
+      path: '{{CATALOG_DIR}}/tasmax/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  tasmin:
+    args:
+      path: '{{CATALOG_DIR}}/tasmin/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  uas:
+    args:
+      path: '{{CATALOG_DIR}}/uas/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  vas:
+    args:
+      path: '{{CATALOG_DIR}}/vas/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

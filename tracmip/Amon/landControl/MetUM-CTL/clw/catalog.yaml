@@ -1,0 +1,13 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  v20180423:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Amon/landControl/MetUM-CTL/clw/v20180423/
+    description: ''
+    driver: zarr
+    metadata: {}

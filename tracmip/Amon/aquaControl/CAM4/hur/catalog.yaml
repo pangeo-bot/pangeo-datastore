@@ -1,0 +1,13 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  v20190409:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Amon/aquaControl/CAM4/hur/v20190409/
+    description: ''
+    driver: zarr
+    metadata: {}

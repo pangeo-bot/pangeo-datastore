@@ -1,0 +1,13 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  v20181025:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Amon/aqua4xCO2/MIROC5/hurs/v20181025/
+    description: ''
+    driver: zarr
+    metadata: {}

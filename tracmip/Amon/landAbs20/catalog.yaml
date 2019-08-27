@@ -1,0 +1,7 @@
+sources:
+  CALTECH:
+    args:
+      path: '{{CATALOG_DIR}}/CALTECH/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

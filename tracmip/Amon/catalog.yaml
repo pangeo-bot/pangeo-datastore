@@ -1,0 +1,67 @@
+sources:
+  aqua4xCO2:
+    args:
+      path: '{{CATALOG_DIR}}/aqua4xCO2/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  aquaAbs07:
+    args:
+      path: '{{CATALOG_DIR}}/aquaAbs07/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  aquaAbs15:
+    args:
+      path: '{{CATALOG_DIR}}/aquaAbs15/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  aquaAbs20:
+    args:
+      path: '{{CATALOG_DIR}}/aquaAbs20/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  aquaControl:
+    args:
+      path: '{{CATALOG_DIR}}/aquaControl/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  land4xCO2:
+    args:
+      path: '{{CATALOG_DIR}}/land4xCO2/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  landAbs07:
+    args:
+      path: '{{CATALOG_DIR}}/landAbs07/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  landAbs15:
+    args:
+      path: '{{CATALOG_DIR}}/landAbs15/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  landAbs20:
+    args:
+      path: '{{CATALOG_DIR}}/landAbs20/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  landControl:
+    args:
+      path: '{{CATALOG_DIR}}/landControl/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  landOrbit:
+    args:
+      path: '{{CATALOG_DIR}}/landOrbit/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

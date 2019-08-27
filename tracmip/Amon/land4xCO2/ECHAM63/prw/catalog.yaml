@@ -1,0 +1,13 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  v20190129:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Amon/land4xCO2/ECHAM63/prw/v20190129/
+    description: ''
+    driver: zarr
+    metadata: {}

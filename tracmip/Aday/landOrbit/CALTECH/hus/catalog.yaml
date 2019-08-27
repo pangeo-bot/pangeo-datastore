@@ -1,0 +1,22 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  v20181025:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Aday/landOrbit/CALTECH/hus/v20181025/
+    description: ''
+    driver: zarr
+    metadata: {}
+  v20190408:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Aday/landOrbit/CALTECH/hus/v20190408/
+    description: ''
+    driver: zarr
+    metadata: {}

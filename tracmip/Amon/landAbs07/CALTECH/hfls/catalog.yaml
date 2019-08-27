@@ -1,0 +1,22 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  v20181025:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Amon/landAbs07/CALTECH/hfls/v20181025/
+    description: ''
+    driver: zarr
+    metadata: {}
+  v20190408:
+    args:
+      consolidated: true
+      storage_options:
+        token: anon
+      urlpath: gs://pangeo-data/tracmip/Amon/landAbs07/CALTECH/hfls/v20190408/
+    description: ''
+    driver: zarr
+    metadata: {}

@@ -1,0 +1,13 @@
+sources:
+  Aday:
+    args:
+      path: '{{CATALOG_DIR}}/Aday/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
+  Amon:
+    args:
+      path: '{{CATALOG_DIR}}/Amon/catalog.yaml'
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
